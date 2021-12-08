@@ -95,7 +95,7 @@ app.post("/example", (req, res) => {
   }); //end connect
 });
 
-// const port = 3000;
+const port = 3000;
 
 app.listen(PORT, () => {
   console.log(`Server running on port${port}`);
